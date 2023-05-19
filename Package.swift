@@ -425,6 +425,10 @@ let package = Package(
         .library(
             name: "CoreMLPredictionsPlugin",
             targets: ["CoreMLPredictionsPlugin"]
+        ),
+        .library(
+            name: "AWSChimeSDKMessaging",
+            targets: ["CoreMLPredictionsPlugin"]
         )
     ],
     dependencies: dependencies,
